@@ -220,13 +220,13 @@ button{
     box-shadow: 4px 2px 4px 2px rgb(168, 168, 168);
 }
 .banner_wrapper img{
-    width: 500px;
-    height: 500px;
+    height: 430px;
     border: 5px solid #000;
     border-radius: 100%;
     z-index: 99;
     background-position: cover;
     background-attachment: fixed;
+    aspect-ratio: 1/1;
 }
 .banner_wrapper  img::before,
 .banner_wrapper img::after{
