@@ -23,6 +23,7 @@ I am a dedicated Laravel developer with professional experience as a Junior Web 
 - **Database**: MySQL
 - **Version Control**: Git, GitHub
 - **Frameworks/Libraries**: React.js
+- **Deployment**: AWS, Cloudways, Cpanel
 
 ### Languages
 - **English**: Fluent (Spoken, Written)
