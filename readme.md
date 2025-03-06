@@ -41,7 +41,7 @@ I am a dedicated Laravel developer with professional experience as a Junior Web 
 
 ### Professional Role
 - **Position**: Junior Web Developer  
-- **Start Date**: October 25, 2024  
+- **Start Date**: October 25, 2023  
 - **Duration**: Ongoing  
 - **Organization**: bitBirds Solutions
 
