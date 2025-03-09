@@ -50,7 +50,7 @@ I am a dedicated Laravel developer with professional experience as a Junior Web 
 ## Education
 
 ### B.S.C in Computer Science & Engineering (Ongoing)
-- **Institute**: Dhaka International University, Dhaka
+- **University**: Dhaka International University, Dhaka
 
 ### Diploma in Computer Technology
 - **Institute**: Barguna Polytechnic Institute, Barguna  
