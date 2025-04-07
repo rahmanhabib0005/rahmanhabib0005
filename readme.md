@@ -11,7 +11,7 @@
 ---
 
 ## Career Objective
-I am a dedicated Laravel developer with professional experience as a Junior Web Developer. My goal is to leverage my technical skills and passion for web development to contribute to impactful projects and collaborate with dynamic teams. I strive to continuously enhance my expertise and deliver innovative solutions that drive success.
+I am a dedicated Laravel developer with professional experience as a Web Developer. My goal is to leverage my technical skills and passion for web development to contribute to impactful projects and collaborate with dynamic teams. I strive to continuously enhance my expertise and deliver innovative solutions that drive success.
 
 ---
 
