@@ -40,11 +40,16 @@ I am a dedicated Laravel developer with professional experience as a Web Develop
 - **Organization**: Bdtask Ltd.
 
 ### Professional Role
-- **Position**: Junior Web Developer  
+- **Position**: Web Developer  
 - **Start Date**: October 25, 2023  
-- **Duration**: Ongoing  
+- **Duration**: April 30, 2025  
 - **Organization**: bitBirds Solutions
 
+### Professional Role
+- **Position**: Software Developer  
+- **Start Date**: May 03, 2025
+- **Duration**: Ongoing  
+- **Organization**: Neways International Ltd.
 ---
 
 ## Education
