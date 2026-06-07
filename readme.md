@@ -8,11 +8,11 @@ Building scalable ERP systems, FinTech platforms, and enterprise applications.
 
 <br>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-7aa2f7?style=for-the-badge)](https://rahmanhabib0005.github.io/rahmanhabib0005)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/habibur-rahman-5b292b263)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge\&logo=gmail)](mailto:rahmanhabib0005@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-BD93F9?style=for-the-badge)](https://rahmanhabib0005.github.io/rahmanhabib0005)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-6272A4?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/habibur-rahman-5b292b263)
+[![Gmail](https://img.shields.io/badge/Gmail-FF5555?style=for-the-badge\&logo=gmail)](mailto:rahmanhabib0005@gmail.com)
 
-![](https://komarev.com/ghpvc/?username=rahmanhabib0005\&color=7aa2f7\&style=flat)
+![](https://komarev.com/ghpvc/?username=rahmanhabib0005\&color=BD93F9\&style=flat)
 
 </div>
 
@@ -80,11 +80,11 @@ Building scalable ERP systems, FinTech platforms, and enterprise applications.
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=rahmanhabib0005&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=rahmanhabib0005&show_icons=true&theme=dracula&hide_border=true"/>
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=rahmanhabib0005&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=rahmanhabib0005&theme=dracula&hide_border=true"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahmanhabib0005&layout=compact&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahmanhabib0005&layout=compact&theme=dracula&hide_border=true"/>
 
 </div>
 
@@ -94,7 +94,7 @@ Building scalable ERP systems, FinTech platforms, and enterprise applications.
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rahmanhabib0005&theme=tokyo-night&hide_border=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rahmanhabib0005&theme=dracula&hide_border=true"/>
 
 </div>
 
@@ -120,6 +120,6 @@ Building scalable ERP systems, FinTech platforms, and enterprise applications.
 
 ### ⭐ Thanks for visiting my profile!
 
-### *Turning ideas into scalable solutions.*
+#### *Turning ideas into scalable solutions.*
 
 </div>
