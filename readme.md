@@ -38,7 +38,7 @@ Building scalable ERP systems, FinTech platforms, and enterprise applications.
 
 ### DevOps & Tools
 
-<img src="https://skillicons.dev/icons?i=git,github,aws,azure,redis,nginx,linux"/>
+<img src="https://skillicons.dev/icons?i=git,github,azure,redis,nginx,linux"/>
 
 </div>
 
@@ -83,20 +83,6 @@ Building scalable ERP systems, FinTech platforms, and enterprise applications.
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=rahmanhabib0005&show_icons=true&theme=tokyonight&hide_border=true"/>
 
 <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=rahmanhabib0005&theme=tokyonight&hide_border=true"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahmanhabib0005&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=rahmanhabib0005&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170em" src="https://github-readme-streak-stats.herokuapp.com/?user=rahmanhabib0005&theme=tokyonight&hide_border=true"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahmanhabib0005&layout=compact&theme=tokyonight&hide_border=true"/>
 
