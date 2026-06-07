@@ -84,7 +84,7 @@ Building scalable ERP systems, FinTech platforms, and enterprise applications.
 
 <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=rahmanhabib0005&theme=dracula&hide_border=true"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahmanhabib0005&layout=compact&theme=dracula&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahmanhabib0005&layout=compact&theme=dracula&hide_border=true"/>
 
 </div>
 
