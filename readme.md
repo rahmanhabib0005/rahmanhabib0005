@@ -1,103 +1,88 @@
 <div align="center">
 
-# 👋 Hi, I'm Habibur Rahman
+# Hi 👋, I'm Habibur Rahman
 
 ### Software Engineer | Full-Stack PHP Developer
 
-<p>
-Building scalable ERP systems, FinTech platforms, and enterprise applications with PHP.
-</p>
+Building scalable ERP systems, FinTech platforms, and enterprise applications.
 
-<p>
-<a href="https://rahmanhabib0005.github.io/rahmanhabib0005">Portfolio</a> •
-<a href="https://www.linkedin.com/in/habibur-rahman-5b292b263">LinkedIn</a> •
-<a href="mailto:rahmanhabib0005@gmail.com">Email</a>
-</p>
+<br>
 
-<img src="https://komarev.com/ghpvc/?username=rahmanhabib0005&label=Profile%20Views&color=7aa2f7&style=flat" />
+[![Portfolio](https://img.shields.io/badge/Portfolio-7aa2f7?style=for-the-badge)](https://rahmanhabib0005.github.io/rahmanhabib0005)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/habibur-rahman-5b292b263)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge\&logo=gmail)](mailto:rahmanhabib0005@gmail.com)
+
+![](https://komarev.com/ghpvc/?username=rahmanhabib0005\&color=7aa2f7\&style=flat)
 
 </div>
 
 ---
 
-## 🚀 About Me
+# 💫 About Me
 
 * 💼 Software Developer at **Neways International Limited**
-* 🌱 Exploring **Cloud Architecture & DevOps**
+* 🚀 Nearly **3 years of experience**
 * 🔭 Working on **ERP, FinTech & IoT Solutions**
-* ⚡ Nearly **3 years of professional experience**
-* ❤️ Passionate about secure and scalable applications
+* 🌱 Learning **Cloud Architecture & DevOps**
+* ⚡ Passionate about scalable and secure applications
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 <div align="center">
 
 ### Languages & Frameworks
 
-<img src="https://skillicons.dev/icons?i=php,laravel,js,react,html,css,bootstrap,mysql" />
+<img src="https://skillicons.dev/icons?i=php,laravel,js,react,html,css,bootstrap,mysql"/>
 
-### Tools & DevOps
+### DevOps & Tools
 
-<img src="https://skillicons.dev/icons?i=git,github,aws,azure,nginx,redis,linux" />
+<img src="https://skillicons.dev/icons?i=git,github,aws,azure,redis,nginx,linux"/>
 
 </div>
 
 ---
 
-## 💼 Professional Experience
+# 🚀 Featured Projects
 
-### Software Developer | Neways International Limited
+### 💸 International Money Transfer System
 
-**May 2025 – Present**
+* MoneyGram API
+* TerraPay API
+* Finmo API
+* Secure transaction workflows
 
-* ERP Development
-* HRM, CRM, SCM, Accounts & Inventory Modules
+### 🌏 Money Exchange Platform (Australia)
+
+* Payment Gateway Integration
+* Currency Synchronization
+* Responsive UI
+
+### 🎓 LMS & Training Institute Platform
+
+* Role-based Access Control
+* Online Payments
+* Certification System
+
+### 📦 Enterprise ERP System
+
+* HRM
+* CRM
+* SCM
+* Accounts
+* Inventory
 * IoT Integration
-* Database Optimization
-* Deployment & Server Maintenance
 
 ---
-
-### Web Developer | bitBirds Solutions
-
-**Oct 2023 – Apr 2025**
-
-### Major Projects
-
-💸 International Money Transfer System
-
-🌏 Money Exchange Platform (Australia)
-
-🎓 LMS & Training Institute Platform
-
-📦 Project Management System
-
----
-
-## 🌟 Core Expertise
-
-```text
-✓ Enterprise ERP Development
-✓ FinTech Applications
-✓ REST APIs & Third-party Integrations
-✓ Payment Gateway Integration
-✓ Database Optimization
-✓ Cloud Deployment
-✓ CI/CD Automation
-✓ Linux Server Administration
-```
-
----
-
-<div align="center">
 
 # 📊 GitHub Stats
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=rahmanhabib0005&show_icons=true&theme=tokyonight&hide_border=true"/>
+<div align="center">
 
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=rahmanhabib0005&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=rahmanhabib0005&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=rahmanhabib0005&theme=tokyonight&hide_border=true"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahmanhabib0005&layout=compact&theme=tokyonight&hide_border=true"/>
 
@@ -105,19 +90,19 @@ Building scalable ERP systems, FinTech platforms, and enterprise applications wi
 
 ---
 
-<div align="center">
-
 # 🏆 GitHub Trophies
 
-<img src="https://github-profile-trophy.vercel.app/?username=rahmanhabib0005&theme=tokyonight&no-frame=true&row=1&column=7"/>
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=rahmanhabib0005&theme=tokyonight&no-frame=true&column=4"/>
 
 </div>
 
 ---
 
-<div align="center">
-
 # 📈 Contribution Graph
+
+<div align="center">
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=rahmanhabib0005&theme=tokyo-night&hide_border=true"/>
 
@@ -125,20 +110,16 @@ Building scalable ERP systems, FinTech platforms, and enterprise applications wi
 
 ---
 
+# 🤝 Connect With Me
+
 <div align="center">
 
-## 🤝 Connect With Me
-
 <a href="mailto:rahmanhabib0005@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img src="https://skillicons.dev/icons?i=gmail"/>
 </a>
 
 <a href="https://www.linkedin.com/in/habibur-rahman-5b292b263">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://rahmanhabib0005.github.io/rahmanhabib0005">
-<img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=for-the-badge"/>
+<img src="https://skillicons.dev/icons?i=linkedin"/>
 </a>
 
 </div>
@@ -147,8 +128,8 @@ Building scalable ERP systems, FinTech platforms, and enterprise applications wi
 
 <div align="center">
 
-### ⭐ Thanks for visiting!
+### ⭐ Thanks for visiting my profile!
 
-#### *Turning ideas into scalable solutions.*
+### *Turning ideas into scalable solutions.*
 
 </div>
