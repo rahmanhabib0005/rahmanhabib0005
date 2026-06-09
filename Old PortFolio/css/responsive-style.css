@@ -1,0 +1,170 @@
+@media (max-width:1030px){
+    /* About */
+    .about_wrapper .writting_section h2{
+        font-size: 30px;
+    }
+    .about_wrapper .writting_section h2 span{
+        font-size: 30px;
+    }
+    .about_wrapper .writting_section p{
+        font-size: 12px;
+        color: #706b6b;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .about_wrapper .progress_section{
+        margin-top: 10px;
+    }
+    .footer_wrapper .copyright p{
+        font-size: 11px;
+        margin-top: 25px;
+    }
+}
+@media (max-width:991px) {
+    /*  Custom css */
+    h1{
+        font-size: 40px;
+        font-weight: 500;
+        padding-left: 30px;
+    }
+
+
+    /* Navbar */
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+        background: var(--bg-dark-blue) !important;
+    }
+    .header_wrapper .menu-navbar-nav .nav-item{
+        margin: 0 275px 0 275px;
+    }
+    .header_wrapper .navbar .nav-link:hover,
+    .header_wrapper .navbar .nav-link.active{
+        color: #fff7f7;
+        padding-bottom: 2px;
+        font-size: 17px;
+        transition: font-size 2000ms ease-out ;
+    }
+    
+    /* Banner Wrapper */
+    
+
+    /* About */
+    .about_wrapper .writting_section h2{
+        font-size: 30px;
+    }
+    .about_wrapper .writting_section h2 span{
+        font-size: 30px;
+    }
+    .about_wrapper .writting_section p{
+        font-size: 12px;
+        color: #706b6b;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .about_wrapper .progress_section{
+        margin-top: 10px;
+    }
+    .services_wrapper .card_wrapper .card{
+        margin-top: 30px;
+    }
+    .contact_wrapper .details a{
+        color: #dfb8b8;
+        text-decoration: none;
+        outline: none;
+        font-weight: 400;
+        font-size: 17px;
+    }
+    .contact_wrapper .details label{
+        font-size: 15px;
+    }
+    .footer_wrapper .copyright p{
+        font-size: 8px;
+        margin-top: 25px;
+    }
+
+    
+}
+
+@media (max-width: 767px) {
+    /* Banner Section */
+    .header_wrapper .menu-navbar-nav .nav-item{
+        margin: 0 200px 0 200px;
+    }
+    .main-btn{
+        font-size: 17px;
+    }
+    /* Custom Css */
+
+    /* About */
+    .about_wrapper{
+        box-shadow: 0 0 2px 0 rgba(255,255,255,0.3);
+    }
+    .about_wrapper .writting_section h2{
+        font-size: 30px;
+    }
+    .about_wrapper .writting_section h2 span{
+        font-size: 30px;
+    }
+    .about_wrapper .writting_section p{
+        font-size: 12px;
+        color: #706b6b;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .about_wrapper .progress_section{
+        margin-top: 10px;
+    }
+    /* portfolio */
+    .services_wrapper .card_wrapper .card{
+        margin-top: 20px;
+    }
+    .mytable .mytable_table{
+        margin-left: -10px;
+        font-size: 13px;
+    }
+    .contact_wrapper .details a{
+        color: #dfb8b8;
+        text-decoration: none;
+        outline: none;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .contact_wrapper .details label{
+        font-size: 13px;
+    }
+    .footer_wrapper .copyright p{
+        font-size: 10px;
+        margin-top: 25px;
+    }
+}
+@media (max-width: 414px) {
+    .header_wrapper .menu-navbar-nav .nav-item{
+        margin: 0px;
+    }
+    .main-btn{
+        font-size: 13px;
+    }
+    .mytable .mytable_table{
+        margin-left: -30px;
+        border: none;
+        font-size: 12px;
+    }
+    .footer_wrapper .navbar-brand img{
+        margin-top: 25px;
+        width: 35%;
+        margin-left: 30%;;
+    }
+    .footer_wrapper .social-content{
+        width: 25%;
+        margin-top: 25px;
+        margin-left: 28%;
+    }
+    .footer_wrapper .copyright p{
+        font-size: 13px;
+        margin-top: 25px;
+        margin-left: -15px;
+    }
+}
