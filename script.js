@@ -1,93 +1,110 @@
-// Loading Screen
+const initPortfolio = ($) => {
+  const $window = $(window);
+  const $body = $("body");
+  const $loader = $(".loader-wrapper");
+  const $topBtn = $(".top-btn");
+  const $themeToggle = $(".theme-switch");
+  const $typingText = $(".typing-text");
+  const $menuToggle = $(".menu-toggle");
+  const $menuPanel = $(".menu-panel");
+  const $sections = $("[data-section]");
+  const $navActions = $("[data-scroll-target]");
+  const words = ["PHP Developer", "Laravel Developer", "CodeIgniter Developer", "Backend Engineer", "API Developer"];
+  let wordIndex = 0;
+  let ticking = false;
+  let topVisible = false;
 
-window.addEventListener("load", () => {
-  document.querySelector(".loader-wrapper").style.display = "none";
-});
+  const setThemeIcon = () => {
+    const icon = $body.hasClass("light-mode") ? "bi-sun-fill" : "bi-moon-stars-fill";
+    $themeToggle.html(`<i class="bi ${icon}" aria-hidden="true"></i>`);
+  };
 
-// Typing Effect
+  const setActiveNav = () => {
+    const scrollTop = $window.scrollTop();
+    let current = "home";
 
-const words = [
-  "PHP Developer",
-  "Laravel Developer",
-  "CodeIgniter Developer",
-  "Backend Engineer",
-  "API Developer",
-];
+    $sections.each(function () {
+      if (scrollTop >= $(this).offset().top - 220) {
+        current = $(this).data("section");
+      }
+    });
 
-let wordIndex = 0;
+    $navActions.each(function () {
+      const $action = $(this);
+      $action.toggleClass("active", $action.attr("data-scroll-target") === current);
+    });
+  };
 
-setInterval(() => {
-  document.getElementById("typing").innerHTML = words[wordIndex];
+  const updateScrollState = () => {
+    const shouldShowTop = $window.scrollTop() > 300;
 
-  wordIndex++;
+    if (shouldShowTop !== topVisible) {
+      topVisible = shouldShowTop;
+      $topBtn.toggle(shouldShowTop);
+    }
 
-  if (wordIndex >= words.length) {
-    wordIndex = 0;
-  }
-}, 2000);
-// Top Button
+    setActiveNav();
+    ticking = false;
+  };
 
-const topBtn = document.getElementById("topBtn");
+  const requestScrollUpdate = () => {
+    if (!ticking) {
+      window.requestAnimationFrame(updateScrollState);
+      ticking = true;
+    }
+  };
 
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 300) {
-    topBtn.style.display = "block";
-  } else {
-    topBtn.style.display = "none";
-  }
-});
-
-topBtn.onclick = () => {
-  window.scrollTo({
-    top: 0,
-
-    behavior: "smooth",
+  $window.on("load", () => {
+    $loader.fadeOut(160);
   });
+
+  if ($typingText.length) {
+    window.setInterval(() => {
+      $typingText.text(words[wordIndex]);
+      wordIndex = (wordIndex + 1) % words.length;
+    }, 2000);
+  }
+
+  $topBtn.hide().on("click", () => {
+    $("html, body").stop(true).scrollTop(0);
+  });
+
+  $navActions.on("click", function () {
+    const target = $(this).attr("data-scroll-target");
+    const $section = $(`[data-section="${target}"]`);
+
+    if (!$section.length) return;
+
+    $("html, body").stop(true).scrollTop($section.offset().top);
+    $menuPanel.removeClass("show");
+    $menuToggle.attr("aria-expanded", "false");
+    updateScrollState();
+  });
+
+  $menuToggle.on("click", () => {
+    const isOpen = !$menuPanel.hasClass("show");
+    $menuPanel.toggleClass("show", isOpen);
+    $menuToggle.attr("aria-expanded", String(isOpen));
+  });
+
+  if (localStorage.getItem("theme") === "light") {
+    $body.addClass("light-mode");
+  }
+
+  setThemeIcon();
+
+  $themeToggle.on("click", () => {
+    $body.toggleClass("light-mode");
+    localStorage.setItem("theme", $body.hasClass("light-mode") ? "light" : "dark");
+    setThemeIcon();
+  });
+
+  $window.on("scroll", requestScrollUpdate);
+  updateScrollState();
 };
 
-// Active Menu
-
-const sections = document.querySelectorAll("section");
-const navLinks = document.querySelectorAll(".nav-link");
-
-window.addEventListener("scroll", () => {
-  let current = "";
-
-  sections.forEach((section) => {
-    const sectionTop = section.offsetTop;
-
-    if (pageYOffset >= sectionTop - 200) {
-      current = section.getAttribute("id");
-    }
-  });
-
-  navLinks.forEach((link) => {
-    link.classList.remove("active");
-
-    if (link.href.includes(current)) {
-      link.classList.add("active");
-    }
-  });
-});
-
-// Theme Toggle
-const body = document.body;
-
-if (localStorage.getItem("theme") === "light") {
-  body.classList.add("light-mode");
-  themeToggle.innerHTML = '<i class="bi bi-sun-fill"></i>';
+if (window.jQuery) {
+  initPortfolio(window.jQuery);
+} else {
+  window.addEventListener("cdnAssetsReady", () => initPortfolio(window.jQuery), { once: true });
 }
-
-themeToggle.addEventListener("click", () => {
-  body.classList.toggle("light-mode");
-
-  if (body.classList.contains("light-mode")) {
-    localStorage.setItem("theme", "light");
-
-    themeToggle.innerHTML = '<i class="bi bi-sun-fill"></i>';
-  } else {
-    localStorage.setItem("theme", "dark");
-
-    themeToggle.innerHTML = '<i class="bi bi-moon-stars-fill"></i>';
-  }
-});
